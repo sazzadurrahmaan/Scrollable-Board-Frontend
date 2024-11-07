@@ -1,8 +1,14 @@
 import { FaPaperclip } from 'react-icons/fa';
 import CardImage from '../../assets/carImage.png'
 import CardImage2 from '../../assets/cardImage2.png'
+import AttachmentModal from '../AttachmentModal/AttachmentModal';
+import { useState } from 'react';
 
 function Card() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   return (
     <div className="bg-white p-2 mb-2 rounded-md shadow-lg">
 
@@ -33,10 +39,11 @@ function Card() {
 
       {/* Attachment Icon */}
       <div className="flex justify-end mt-2">
-        <span className="cursor-pointer text-[1.2rem] text-[#007bff]">
+        <span className="cursor-pointer text-[1.2rem] text-[#007bff]" onClick={openModal}>
           <FaPaperclip />
         </span>
       </div>
+      {isModalOpen && <AttachmentModal closeModal={closeModal} />}
     </div>
   );
 }
