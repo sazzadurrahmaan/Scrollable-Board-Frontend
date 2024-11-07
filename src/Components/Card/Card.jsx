@@ -19,7 +19,7 @@ function Card() {
 
         {/* Right side: User Image and Name */}
         <div className="flex flex-col-reverse items-center">
-          <h4 className="mr-2">Barak Obama</h4>
+          <h4 className="mr-2 font-semibold">Barak Obama</h4>
           <img
             src={CardImage2}
             alt="User"
