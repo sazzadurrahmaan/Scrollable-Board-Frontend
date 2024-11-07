@@ -12,7 +12,7 @@ function Card() {
           <img
             src={CardImage}
             alt="Client"
-            className="w-8 h-8 rounded-full mr-2" // Styling for the image
+            className="w-8 h-8 rounded-full mr-2" 
           />
           <h4 className="font-semibold">Donald Trump</h4>
         </div>
