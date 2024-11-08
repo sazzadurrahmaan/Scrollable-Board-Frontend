@@ -1,8 +1,52 @@
-# React + Vite
+# Scrollable Board Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the frontend part of a Scrollable Board application. It is built with **React.js** and allows users to manage tasks with a visually organized board. Users can add attachments to tasks, view attachments in a modal, and track the count of uploaded attachments.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Horizontally scrollable board with columns and cards.
+- Clickable attachment icon to upload and view files in a modal.
+- Dynamic display of attachment counts.
+- Integrates with a Node.js backend for file uploads.
+
+
+## Installation
+
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/sazzadurrahmaan/Seopage1-Frontend-Developer-Task.git
+
+## Install Dependencies
+   ```bash
+      npm install
+## Start the development server
+   ```bash
+      npm run dev
+
+## Open the app in your browser.
+      http://localhost:5173/
+## Usage :
+    --Each column represents a task status (e.g., To Do, Doing, Done).
+    --Each card represents a task and has an attachment icon.
+    --Click the attachment icon to open the attachment modal, where you can upload 
+      multiple files.
+    --Uploaded files display in the modal with the original file name and 
+      extension.
+## Project Structure
+
+      frontend/
+   ├── public/               # Public assets
+   ├── src/
+   │   ├── components/       # React components
+   │   ├── App.js            # Main app component
+   │   ├── index.js          # Main entry point
+   ├── README.md             # Frontend README
+   └── package.json          # Project metadata and dependencies
+## Dependencies
+    *React.js
+    *axios
+    *react-modal
+    *react-icons
+## Environment Variables
+
+This frontend does not require environment variables for configuration. However, make sure that the backend server is running on http://localhost:5000.
