@@ -16,14 +16,43 @@ This project is the frontend part of a Scrollable Board application. It is built
    ```bash
    git clone https://github.com/sazzadurrahmaan/Seopage1-Frontend-Developer-Task.git
 
-### Install Dependencies
-   ```bash
-      npm install ```
+## Install Dependencies
+      ```bash 
+      npm install
 
-### Run the project
-   ```bash
-      npm run dev```
+## Start the development server
+      npm run dev
 
 ## Open the app in your browser.
       http://localhost:5173/
 
+# Usage
+   * Each column represents a task status (e.g., To Do, Doing, Done).
+   * Each card represents a task and has an attachment icon. 
+   * Click the attachment icon to open the attachment modal, where you can upload 
+     multiple files.
+   * Uploaded files display in the modal with the original file name and extension.
+     
+# Project Structure 
+       frontend/
+├── public/               # Public assets
+├── src/
+│   ├── components/       # React components
+│   ├── App.js            # Main app component
+│   ├── index.js          # Main entry point
+├── README.md             # Frontend README
+└── package.json          # Project metadata and dependencies
+
+# Dependencies 
+   * React.js
+   * axios
+   * react-modal
+   * react-icons
+# Environment Variables
+  *This frontend does not require environment variables for configuration. 
+  However, make sure that the backend server is running on http://localhost:5000.
+
+# Here is the Backend Part Repository : 
+## https://github.com/sazzadurrahmaan/Seopage1-Task_Backend-part
+      
+      
