@@ -19,34 +19,12 @@ This project is the frontend part of a Scrollable Board application. It is built
 ## Install Dependencies
    ```bash
       npm install
+
+
 ## Start the development server
    ```bash
       npm run dev
 
-## Open the app in your browser.
+Open the app in your browser.
       http://localhost:5173/
-## Usage :
-    --Each column represents a task status (e.g., To Do, Doing, Done).
-    --Each card represents a task and has an attachment icon.
-    --Click the attachment icon to open the attachment modal, where you can upload 
-      multiple files.
-    --Uploaded files display in the modal with the original file name and 
-      extension.
-## Project Structure
 
-      frontend/
-   ├── public/               # Public assets
-   ├── src/
-   │   ├── components/       # React components
-   │   ├── App.js            # Main app component
-   │   ├── index.js          # Main entry point
-   ├── README.md             # Frontend README
-   └── package.json          # Project metadata and dependencies
-## Dependencies
-    *React.js
-    *axios
-    *react-modal
-    *react-icons
-## Environment Variables
-
-This frontend does not require environment variables for configuration. However, make sure that the backend server is running on http://localhost:5000.
