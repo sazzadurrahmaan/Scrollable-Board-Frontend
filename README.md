@@ -16,15 +16,14 @@ This project is the frontend part of a Scrollable Board application. It is built
    ```bash
    git clone https://github.com/sazzadurrahmaan/Seopage1-Frontend-Developer-Task.git
 
-## Install Dependencies
+### Install Dependencies
    ```bash
-      npm install
+      npm install ```
 
-
-## Start the development server
+### Run the project
    ```bash
-      npm run dev
+      npm run dev```
 
-Open the app in your browser.
+## Open the app in your browser.
       http://localhost:5173/
 
