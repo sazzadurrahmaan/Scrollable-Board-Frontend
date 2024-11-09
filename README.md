@@ -49,8 +49,11 @@ This project is the frontend part of a Scrollable Board application. It is built
    * react-modal
    * react-icons
 # Environment Variables
-  *This frontend does not require environment variables for configuration. 
-  However, make sure that the backend server is running on http://localhost:5000.
+  * .env
+      ```bash
+      REACT_APP_API_URL=http://localhost:5000
+
+ * make sure that the backend server is running on http://localhost:5000.
 
 # Here is the Backend Part Repository : 
 ## https://github.com/sazzadurrahmaan/Seopage1-Task_Backend-part
