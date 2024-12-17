@@ -14,7 +14,7 @@ This project is the frontend part of a Scrollable Board application. It is built
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/sazzadurrahmaan/Seopage1-Frontend-Developer-Task.git
+   git clone https://github.com/sazzadurrahmaan/Scrollable-Board-Frontend.git
 
 ## Install Dependencies
       ```bash 
@@ -56,6 +56,6 @@ This project is the frontend part of a Scrollable Board application. It is built
  * make sure that the backend server is running on http://localhost:5000.
 
 # Here is the Backend Part Repository : 
-## https://github.com/sazzadurrahmaan/Seopage1-Task_Backend-part
+## https://github.com/sazzadurrahmaan/Scrollable-Board-Backend-part
       
       
